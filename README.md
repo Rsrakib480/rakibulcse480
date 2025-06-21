@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background-color: #ff6a00;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff6a00;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduSite</h1>
+    <p>আপনার শিক্ষা শুরু হোক এখান থেকে</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <div class="container">
+    <section id="home" class="section">
+      <h2>স্বাগতম!</h2>
+      <p>এটি একটি ডেমো শিক্ষা বিষয়ক ওয়েবসাইট। এখানে আপনি বিভিন্ন শিক্ষা সম্পর্কিত তথ্য, রিসোর্স এবং পরামর্শ পেতে পারেন।</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>আমরা একটি টিম যারা শিক্ষার্থীদের জন্য অনলাইন লার্নিং সহজ করে তুলতে কাজ করি। আমাদের লক্ষ্য হলো প্রযুক্তি ব্যবহার করে শিক্ষাকে আরও সবার জন্য সহজলভ্য করে তোলা।</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; ২০২৫ EduSite. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+</body>
+</html>
